@@ -1,0 +1,144 @@
+
+@font-face{
+    font-family:'HowdyLemon';
+    src: url('font/HowdyLemon.otf') format('truetype');
+    /*pour ajouter d'autres police via des sites*/
+}
+body{
+    background-color: lavender;
+}
+.home h1{
+font-family: HowdyLemon;
+text-align: center;
+padding: 3%;
+font-size: 70px; /*pour grossir le texte*/
+}
+nav{
+    background-color:darkseagreen;
+    display: flex;
+    justify-content: space-around;
+    p a {
+        color: white;
+    }
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.intro {
+    max-width: 800px;
+text-align: center;
+margin: auto;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.photo1{
+    img{
+        border-radius: 10px;
+    }
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#services{
+display: flex;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 14px;
+}
+.service{
+    color:white;
+    padding: 5%;
+background-color:darkseagreen;
+text-align:center;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.service h3{
+    text-align: center;
+}
+.photo2{
+    img{
+        border-radius: 10px;
+    }
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.descri{
+    font-family:HowdyLemon;
+text-align: center;
+padding: 3%;
+font-size: 2rem;
+}
+.equipe{
+    max-width: 800px;
+    text-align: center;
+    padding: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:auto
+}
+.prenom{
+    max-width: 800px;
+    text-align: center;
+    padding: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:auto
+}
+.realisation{
+    font-family: HowdyLemon;
+    text-align: center;
+    padding: 3%;
+}
+#mosaiques{
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+}
+.mosaique{
+    img{
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+    display: flex;
+    justify-content: space-around;
+flex-wrap: wrap;
+}
+.contact{
+    font-family: HowdyLemon;
+    text-align: center;
+    padding: 3%;
+}
+.civiliter{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+padding: 3%;
+}
+.titre{
+    font-family: HowdyLemon;
+    text-align: center;
+    padding: 3%;
+}
+.faq{
+    max-width: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;  
+    padding: 3%;
+    margin: auto;
+}
+
+@media screen and (min-width: 375px) and (max-height: 932px){
+    .home h1 {
+    font-size: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    }
+    nav{
+    display: flex;
+    margin: auto;
+}
+.intro{
+    margin: auto;
+}
+.section {
+    margin: auto;
+    font-size: 12px;
+}
+}
